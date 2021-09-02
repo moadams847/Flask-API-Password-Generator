@@ -3,6 +3,7 @@ const form = $("#addForm");
 const item = $(".item");
 const itemList = $("#items");
 const lis = $(".list-group-item");
+const generatePassword = new GeneratePassword();
 
 // ---
 const updateUi = (data) => {
@@ -44,7 +45,8 @@ form.on("submit", function (e) {
 
   let pathChecked = $('input[name="inlineRadioOptions"]:checked').val();
 
-  getPassword(pathChecked, passwordLength)
+  generatePassword
+    .getPassword(pathChecked, passwordLength)
     .then((data) => {
       updateUi(data);
     })
@@ -62,7 +64,8 @@ let passwordLength = localStorage.getItem("passwordLength");
 let pathChecked = localStorage.getItem("pathChecked");
 
 if (passwordLength) {
-  getPassword(pathChecked, passwordLength)
+  generatePassword
+    .getPassword(pathChecked, passwordLength)
     .then((data) => {
       updateUi(data);
     })
