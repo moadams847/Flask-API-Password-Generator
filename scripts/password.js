@@ -7,10 +7,10 @@ const getPassword = async (pathChecked, passwordLength) => {
   return data;
 };
 
-getPassword("special-characters", "9")
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+// getPassword("special-characters", "9")
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
