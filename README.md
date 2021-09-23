@@ -6,7 +6,7 @@ The goal of this project is to create a user interface for consuming a random ch
 
 ## Screenshot
 
-[![Password Generator App](images/pgen.PNG "Password Generator App")]()
+[![Password Generator App](img/pgen.PNG "Password Generator App")]()
 
 ## URL
 
