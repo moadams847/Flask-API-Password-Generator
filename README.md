@@ -1,4 +1,4 @@
-# Password Generator App
+# Flask-API Based Password Generator App
 
 ## Motivation
 
