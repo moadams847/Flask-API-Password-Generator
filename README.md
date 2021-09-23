@@ -10,7 +10,7 @@ The goal of this project is to create a user interface for consuming a random ch
 
 ## URL
 
-[AdminComp Docs Site](https://suspicious-galileo-c6e204.netlify.app/)
+[Password Generator App](https://suspicious-galileo-c6e204.netlify.app/)
 
 ## Installation
 
